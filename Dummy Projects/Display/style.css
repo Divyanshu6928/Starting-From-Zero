@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "SF Pro", sans-serif;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+    background-color: #f5f5f5;
+}
+
+#nav{
+    display: flex;
+    width : 100%;
+    height: 60px;
+    background-color: #f5f5f5;
+    color: #333;
+    /* font-family: "SF Pro Regular"; */
+    /* font-weight: bold; */
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    box-shadow: 0px 2px 4px black;
+}
+
+#main{
+    text-align: center;
+    padding: 40px;
+    height: 70%;
+    background: url("https://www.apple.com/v/home/cm/images/heroes/iphone-family/hero_iphone_family__fuz5j2v5xx6y_small_2x.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#main #links{
+    padding: 15px 30px;
+}
+
+button{
+    padding: 10px 20px;
+    border: none;
+    background-color: rgb(64, 64, 245);
+    border-radius: 24px;
+    color: antiquewhite;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#main #links button:hover{
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #f5f5f5;
+}
+
+
+#neo{
+    padding-top: 40px;
+    text-align: center;
+    padding: 40px;
+    height: 70%;
+    background: url("https://www.apple.com/v/home/cm/images/heroes/macbook-neo/hero_macbook_neo__gnm3snkti4a6_small_2x.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#neo #links{
+    padding: 15px 30px;
+}
+
+button{
+    padding: 10px 20px;
+    border: none;
+    background-color: rgb(64, 64, 245);
+    border-radius: 24px;
+    color: antiquewhite;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#neo #links button:hover{
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #f5f5f5;
+}
