@@ -16,12 +16,13 @@ main{
     width: 100%;
     background: #333;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 20% 1fr 1fr 1fr;
     grid-gap: 10px;
-    grid-template-areas: "header header"
-                        "section1 section2"
-                        "footer footer";
+    grid-template-areas: "header header header"
+                        "section section section"
+                        "div-left bottom-up div-right"
+                        "div-left bottom-down div-right";
 }
 
 header{
@@ -29,19 +30,28 @@ header{
     grid-area: header;
 }
 
-#section1{
+#section{
     background-color: white;
     color: black;
-    grid-area: section1;
+    grid-area: section;
 }
 
-#section2{
-    background-color: white;
-    color: black;
-    grid-area: section2;
+#div-left{
+    background-color: orangered;
+    grid-area: div-left;
 }
 
-footer{
-    background-color: green;
-    grid-area: footer;
+#bottom-up{
+    background-color: olivedrab;
+    grid-area: bottom-up;
+}
+
+#bottom-down{
+    background-color: orchid;
+    grid-area: bottom-down;
+}
+
+#div-right{
+    background-color: orangered;
+    grid-area: div-right;
 }
