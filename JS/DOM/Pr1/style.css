@@ -39,3 +39,7 @@ button{
     outline: none;
     border-radius: 12px;
 }
+
+button:hover{
+    cursor: pointer;
+}
