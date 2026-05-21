@@ -17,6 +17,9 @@ body {
   flex-direction: column;
   align-items: center;
 }
+body h4 {
+  display: none;
+}
 body h3 {
   color: transparent;
   font-size: 60px;
@@ -44,4 +47,20 @@ body #main #box {
 body #main #box h2 {
   color: tomato;
   font-size: 60px;
+}
+
+@media (max-width: 768px) {
+  body {
+    padding: 20px;
+  }
+  body h4 {
+    display: block;
+    color: white;
+  }
+  body h3 {
+    display: none;
+  }
+  body #main {
+    display: none;
+  }
 }/*# sourceMappingURL=style.css.map */
